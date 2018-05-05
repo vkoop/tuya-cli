@@ -3,13 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "author": "",
   "license": "MIT",
   "dependencies": {
     "commander": "^2.15.1",
-    "tuyapi": "github:codetheweb/tuyapi"
+    "tuyapi": "^2.0.3"
   },
   "bin": {
     "tuya-cli": "./index.js"
