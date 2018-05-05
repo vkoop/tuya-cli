@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const program = require('commander');
-const SmartDevice = require('./SmartDevice');
+const SmartDevice = require('./smart-device');
 
 program.command('set-status <status> <id> <key>')
 	.option('-i, --ip <ipAddress>', 'device ip')
